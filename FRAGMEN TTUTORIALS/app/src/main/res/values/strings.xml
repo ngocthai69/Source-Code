@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FRAGMENT TUTORIALS</string>
+
+    <string name="tabs_1">RED</string>
+    <string name="tabs_2">BLUE</string>
+    <string name="tabs_3">GREEN</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

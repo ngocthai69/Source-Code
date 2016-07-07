@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ngocthai.fragmenttutorials.GreenFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2df70e"
+        android:gravity="center"
+        android:text="This is Fragment GREEN"
+        android:textColor="#fff"
+        android:textSize="35dp" />
+
+</FrameLayout>
