@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
         initView();
     }
 
+    /*
+    Function work some UI in this activity
+     */
     private void initView() {
         // find view by id
         txt_red = (TextView) findViewById(R.id.txt_red);
@@ -31,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         txt_green.setOnClickListener(click_green);
     }
 
+    /*
+    Function main of click to show red fragment
+     */
     private View.OnClickListener click_red = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -38,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    /*
+    Function main of click to show blue fragment
+     */
     private View.OnClickListener click_blue = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -45,6 +54,9 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    /*
+    Function main of click to show green fragment
+     */
     private View.OnClickListener click_green = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -52,6 +64,9 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    /*
+    Function to replace fragment
+     */
     private void putFragment(Fragment fragment) {
         FragmentTransaction ft;
         ft = getSupportFragmentManager().beginTransaction();

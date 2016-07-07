@@ -26,11 +26,13 @@ public class RedFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view_red = inflater.inflate(R.layout.fragment_red, container, false);
+
         return view_red;
     }
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
     }
 }
