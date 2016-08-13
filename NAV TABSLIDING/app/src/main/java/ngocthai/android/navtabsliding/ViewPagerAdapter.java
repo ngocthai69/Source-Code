@@ -22,8 +22,8 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     }
 
     /*
-    get position of fragment
-     */
+    Get position of list fragment
+    */
     @Override
     public Fragment getItem(int position) {
         return ls_fm.get(position);
