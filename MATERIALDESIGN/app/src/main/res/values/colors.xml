@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#11a43f</color>
+    <color name="colorPrimaryDark">#11a43f</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="colorRed">#c62828</color>
+    <color name="colorGreen">#2E7D32</color>
+    <color name="colorBlue">#283593</color>
+
+    <color name="colorName">#3d3838</color>
+    <color name="colorHeader">#545252</color>
+    <color name="colorTitle">#868080</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+</resources>
